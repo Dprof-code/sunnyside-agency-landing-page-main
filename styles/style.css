@@ -1,0 +1,34 @@
+:root {
+    --softRed: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --grayishBlue: hsl(210, 4%, 67%);
+    --darkGrayishBlue: hsl(232, 10%, 55%);
+    --veryDarkGrayishBlue: hsl(213, 9%, 39%);
+    --veryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+    --white: hsl(0, 0%, 100%);
+
+    --barlow: 'Barlow', sans-serif;
+    --fraunces: 'Fraunces', serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: var(--softRed);
+}
+
+body {
+    font-size: 18px;
+    color: var(--yellow);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
